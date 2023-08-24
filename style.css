@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://i.pinimg.com/1200x/ed/78/cb/ed78cbfaf047f2f679ac94e81951c6a9.jpg);
+    background-size: cover;
+    background-position:center;
+    color:rgb(240, 240, 36);
+
+}
+
+
+.countdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+h2{
+    
+    font-size: 100px;
+}
+
+.box small{
+    font-size: 25px;
+    text-align: center;
+}
+.newyear{
+    font-family: 'Playball', cursive;
+    cursor: pointer;
+    font-size: 80px ;
+}
+
+.newyear:hover{
+    color: white
+}
+
+p{
+    font-size: 40px;
+    font-family: 'Playball', cursive;
+
+}
+
+@media(max-width:415px) {
+.newyear{
+    font-size: 50px;
+}
+
+p{
+    font-size: 30px;
+}
+.box h2{
+    font-size: 30px;
+
+}
+}
+
+
